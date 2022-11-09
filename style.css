@@ -1,3 +1,5 @@
+family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
 body {
 	display: flex;
 	justify-content: center;
@@ -60,4 +62,14 @@ body {
 	100% {
 		transform: scale(1);
 	}
+}
+.name{
+ font-family: 'Mr Dafoe';
+  margin: 0;
+  font-size: 2.5em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-7deg);
+   z-index:1000
 }
